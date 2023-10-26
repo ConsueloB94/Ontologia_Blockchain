@@ -1,0 +1,2027 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95/"
+     xml:base="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:info="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#info:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:scheme="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#scheme:"
+     xmlns:untitled-ontology-77="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#"
+     xmlns:untitled-ontology-95="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95">
+        <owl:imports rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77"/>
+        <info:developer>Consuelo Borzì (1000029528)
+LM-43 Text science for digital professions</info:developer>
+        <info:version>26-10-2023</info:version>
+        <rdfs:comment>Within this ontology it is possible to view:
+- The taxonomic ontology: focused on the structure of the blockchain in particular Bitcoin and Ethereum which are permissionless and Neo which is permissioned.
+- The data ontology: that presents some of the possible applications of Blockchain technology.
+Some of possible uses of this technology. 
+Sector:
+Finance
+Health
+Art
+Waste
+Metaverso
+Payment
+Game</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#info:developer -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#info:developer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#info:version -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#info:version"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#acceptPaymentsWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#acceptPaymentsWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#allowsConnectionBetween -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#allowsConnectionBetween"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#allowsDevicesTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#allowsDevicesTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#allowsTheFreeExchangeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#allowsTheFreeExchangeOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#allowsToUseCreateMultiple -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#allowsToUseCreateMultiple"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#boughtCompany -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#boughtCompany"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#carriesTheDateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#carriesTheDateOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#developedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#developedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#ecologicalVersionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#ecologicalVersionOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasLikeEcologicalVersion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#favorsConditionalExecutionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#favorsConditionalExecutionOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#forSellBuyAxien -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#forSellBuyAxien"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#forSellBuyInBitcoin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#forSellBuyInBitcoin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasFirstApplicationWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasFirstApplicationWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasLikeEcologicalVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasLikeEcologicalVersion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasLikePartner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasLikePartner">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isAPartnerOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasLikeProject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#hasLikeProject">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isAProjectOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isAMainPurposeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isAMainPurposeOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainPurposeIs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isAPartnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isAPartnerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isAProjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isAProjectOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isActiveSupportedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isActiveSupportedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itSupportProjectLike"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isBasedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isBasedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isInCollaborationWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isInCollaborationWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isMainUseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isMainUseOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainUsesIs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isUsedForProjectLike -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isUsedForProjectLike">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itUsesBlockchain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isUsedLikeAssetIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isUsedLikeAssetIn">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesLikeAsset"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isUsesInFinanceForAutomation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#isUsesInFinanceForAutomation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itSupportProjectLike -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itSupportProjectLike"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itUsesBlockchain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itUsesBlockchain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itUsesDecentralized -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itUsesDecentralized"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itsCharactersAre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itsCharactersAre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainPurposeIs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainPurposeIs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainUsesIs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainUsesIs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#theCreatorIs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#theCreatorIs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesForPrototype -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesForPrototype"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesForTracciability -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesForTracciability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesLikeAsset -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesLikeAsset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesTechnologyOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#usesTechnologyOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainPurposeSpecification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainPurposeSpecification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainUsesSpecification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainUsesSpecification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#rewardSpecification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#rewardSpecification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#state_Activity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#state_Activity"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Asset -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Asset">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Asset"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Place -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Place">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Place"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Asset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Asset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Brand">
+        <rdfs:comment>It contains some brands that allow you to carry out purchase transactions with digital assets.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Creation_Protocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Creation_Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Delivery_Protocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Delivery_Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Asset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT_Application -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT_Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MarketPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MarketPlace"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Partner_Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Partner_Company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Paymento_Method_Card"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Paymento_Method_Card -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Paymento_Method_Card">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project">
+        <rdfs:comment>It contains some projects that use blockchains for various purposes and uses.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action">
+        <rdfs:comment>Contains the purposes and uses of the projects described.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Protocol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Protocol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Safety_Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Safety_Element"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#StableCoin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#StableCoin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Valute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Valute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Bitcoin -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Bitcoin">
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Manage_Payment"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#ANTEA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#ANTEA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:developedIn rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Italy"/>
+        <untitled-ontology-95:hasLikePartner rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Parma_University"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Protect_Made_In_Italy"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food_Distribution"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food_Safety"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Identification_Of_Food_Problem"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Knowledge_The_Consumer_Code"/>
+        <scheme:link>https://www.progetto-antea.com/</scheme:link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#AXS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#AXS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Valute"/>
+        <untitled-ontology-77:isTheAssetOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#AXS"/>
+        <untitled-ontology-77:usesLikeStandard rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ERC_20"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Access_To_Medical_Records -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Access_To_Medical_Records">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Agriculture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Agriculture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT_Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Anti_Money_Laundering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Anti_Money_Laundering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Anxient_Infinity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Anxient_Infinity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:hasAsAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#AXS"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Gaming"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ronin"/>
+        <untitled-ontology-95:itsCharactersAre rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#NFT"/>
+        <scheme:link>https://axieinfinity.com/</scheme:link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Artistic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Artistic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Banking_Operation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Banking_Operation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#BloRin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#BloRin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:hasLikePartner rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Exalto"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Energetic"/>
+        <untitled-ontology-95:isBasedIn rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sicily"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Southern_Italy_Island"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transactive_Energy"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Virtuous_Exchanges_Of_Energy"/>
+        <untitled-ontology-95:theCreatorIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Palermo_University"/>
+        <untitled-ontology-95:state_Activity>in processing</untitled-ontology-95:state_Activity>
+        <scheme:link>https://www.blorin.energy/</scheme:link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Build_Regenerative_Digital_Economy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Build_Regenerative_Digital_Economy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Celo_Project -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Celo_Project">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:hasAsAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#cUSD"/>
+        <untitled-ontology-95:allowsToUseCreateMultiple rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#dApp"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Celo"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Build_Regenerative_Digital_Economy"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Negativize_Use_Of_Carbon"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Usage_Mobile_First"/>
+        <untitled-ontology-95:mainPurposeSpecification>Creates conditions of prosperity for all</untitled-ontology-95:mainPurposeSpecification>
+        <scheme:link>Dapp: https://docs.celo.org/showcase
+Site: https://celo.org/</scheme:link>
+        <scheme:link>https://www.kraken.com/learn/what-is-celo</scheme:link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Chailink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Chailink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <scheme:link rdf:resource="https://www.criptovaluta.it/wp-content/uploads/2021/02/chainlink-guida-approfondimento.png"/>
+        <rdfs:comment>It is a nodes networking</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Chiper_Trace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Chiper_Trace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Anti_Money_Laundering"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial_Investigation"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Fraud_Protection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Contactless_Proof_Of_Delivery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Contactless_Proof_Of_Delivery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Delivery_Protocol"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Credible_Data_Flow_Control -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Credible_Data_Flow_Control">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Crop_Monitoring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Crop_Monitoring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Crypro_Kitten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Crypro_Kitten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:forSellBuy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Virtual_Kitten"/>
+        <untitled-ontology-77:isCreatedTrought rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#dApp"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Artistic"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Crypro_Kitten"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#forSellBuy"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Virtual_Kitten"/>
+        <rdfs:comment>Game</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#CryptoSecure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#CryptoSecure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method_Service"/>
+        <untitled-ontology-77:isCreatedBy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MasterCard"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Cultural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Cultural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Data_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Data_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#DeFi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#DeFi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:allowsToDo rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#OilTrading"/>
+        <untitled-ontology-95:hasFirstApplicationWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Bitcoin"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:isUsesInFinanceForAutomation rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#SmartContract"/>
+        <untitled-ontology-95:itSupportProjectLike rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Uniswap"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Stacks"/>
+        <untitled-ontology-95:itUsesDecentralized rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#dApp"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Traditional_Finance"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Banking_Operation"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Money_Transfer"/>
+        <scheme:link rdf:resource="https://www.adgm.com/-/media/whitepaper/images/defi_explanation5.jpg"/>
+        <rdfs:comment>Decentrallized Finance</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#DeFi"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#itUsesBlockchain"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Stacks"/>
+        <rdfs:comment>For same project</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#DeSci -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#DeSci">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Cultural"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Dissemination_Of_Scientific_Knowledge"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Fundraiser"/>
+        <untitled-ontology-95:usesLikeAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ETH"/>
+        <scheme:link rdf:resource="https://ethereum.org/en/desci/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Decentraland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Decentraland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:hasAsAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MANA"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Metaverse"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:itsCharactersAre rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#NFT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Decentralized_Economic_System -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Decentralized_Economic_System">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Delivery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Delivery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+        <untitled-ontology-95:usesForPrototype rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Proof_Of_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Device -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Device"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital_Documentation_About_Oil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital_Documentation_About_Oil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital_Guarantee_Seal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital_Guarantee_Seal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Dissemination_Of_Scientific_Knowledge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Dissemination_Of_Scientific_Knowledge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Eco-Sys_Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Eco-Sys_Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAPartnerOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Offers_Carbon_Offsets"/>
+        <untitled-ontology-77:tipology>Eco-Project</untitled-ontology-77:tipology>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Economy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Economy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT_Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Efficient_Cross-Border_Payment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Efficient_Cross-Border_Payment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Encourage_Recycling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Encourage_Recycling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Enerchain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Enerchain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:hasLikePartner rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PONTONGmbH"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Energetic"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Optimize_Use_Of_Renewables"/>
+        <untitled-ontology-77:action>Trading</untitled-ontology-77:action>
+        <scheme:image rdf:resource="https://enerchain.ponton.de/images/bg-small.png"/>
+        <scheme:link>https://enerchain.ponton.de/</scheme:link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Energetic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Energetic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+        <untitled-ontology-95:usesForPrototype rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Proof_Of_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Exalto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Exalto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Partner_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Expedia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Expedia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Brand"/>
+        <untitled-ontology-95:acceptPaymentsWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#BTC"/>
+        <untitled-ontology-95:isInCollaborationWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Travala"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Secure_Accomodation_Booking"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Secure_Travel_Booking"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#FarmBot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#FarmBot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Agriculture"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Crop_Monitoring"/>
+        <untitled-ontology-95:usesTechnologyOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+        <untitled-ontology-95:usesForPrototype rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Proof_Of_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial_Investigation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial_Investigation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Flamingo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Flamingo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:isActiveSupportedBy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#DeFi"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Neo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+        <untitled-ontology-95:usesForPrototype rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Proof_Of_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#FoodChain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#FoodChain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:allowsToUseCreateMultiple rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#dApp"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food"/>
+        <untitled-ontology-95:isInCollaborationWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TextileChain"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Quadrans"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reduce_Waste"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trace_Food_Product"/>
+        <untitled-ontology-95:usesForTracciability rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#QR_Code"/>
+        <untitled-ontology-95:mainPurposeSpecification>real-time product quality control</untitled-ontology-95:mainPurposeSpecification>
+        <untitled-ontology-95:mainUsesSpecification>from origin to final consumer using blockchain technology.</untitled-ontology-95:mainUsesSpecification>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food_Distribution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food_Distribution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food_Safety -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food_Safety">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Forence_Security -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Forence_Security">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Fraud_Protection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Fraud_Protection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Fundraiser -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Fundraiser">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Gaming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Gaming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Gamma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Gamma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:forSellBuyInBitcoin rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#NFT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Gateway -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Gateway">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Node"/>
+        <untitled-ontology-77:nodeUsesBy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TTN"/>
+        <untitled-ontology-95:allowsConnectionBetween rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Device"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#HNT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#HNT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token"/>
+        <untitled-ontology-77:isTheAssetOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TTN"/>
+        <untitled-ontology-77:usesLikeStandard rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ERC_721"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Health -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Health">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+        <untitled-ontology-95:usesForPrototype rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Proof_Of_Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Identification_Of_Food_Problem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Identification_Of_Food_Problem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Health_Care -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Health_Care">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Payment_Efficiency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Payment_Efficiency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Traditional_Finance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Traditional_Finance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Industry4.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Industry4.0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT_Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Technology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Italy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Italy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Knowledge_The_Consumer_Code -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Knowledge_The_Consumer_Code">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LINK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LINK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Valute"/>
+        <untitled-ontology-77:isTheAssetOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Chailink"/>
+        <untitled-ontology-77:usesLikeStandard rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ERC_20"/>
+        <untitled-ontology-77:maximumOffersIs>1,000,000,000 LINK</untitled-ontology-77:maximumOffersIs>
+        <untitled-ontology-77:totalOffer>1,000,000,000 LINK</untitled-ontology-77:totalOffer>
+        <untitled-ontology-77:volumeOfTraiding>285,464,237€</untitled-ontology-77:volumeOfTraiding>
+        <untitled-ontology-95:mainUsesSpecification>Tip For Nodes</untitled-ontology-95:mainUsesSpecification>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LoRa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LoRa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Communication_Protocol"/>
+        <untitled-ontology-77:isTheAlgorithmOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LoRaWhan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LoRaWhan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LoRaWhan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Technology"/>
+        <untitled-ontology-77:isCharacterizedByMore rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Security"/>
+        <untitled-ontology-77:usesLikeAlgorithm rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LoRa"/>
+        <untitled-ontology-95:allowsDevicesTo rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transmit_Data_Over_Long_Distances"/>
+        <untitled-ontology-77:energyConsumption>Low</untitled-ontology-77:energyConsumption>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MANA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MANA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token"/>
+        <untitled-ontology-77:isTheAssetOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Decentraland"/>
+        <untitled-ontology-77:usesLikeStandard rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ERC_721"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MOD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MOD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token"/>
+        <untitled-ontology-77:isTheAssetOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Modum"/>
+        <untitled-ontology-77:usesLikeStandard rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ERC_721"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MVP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MVP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:isCreatedTrought rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Proof_Of_Concept"/>
+        <untitled-ontology-77:isUsedFor rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-77:isUsedFor rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Health"/>
+        <untitled-ontology-77:tipology>most basic version of the product</untitled-ontology-77:tipology>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Make_Works_Of_Art_Unique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Make_Works_Of_Art_Unique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Manage_Payment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Manage_Payment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Market_Research -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Market_Research">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MasterCard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MasterCard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Paymento_Method_Card"/>
+        <untitled-ontology-95:boughtCompany rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Chiper_Trace"/>
+        <untitled-ontology-95:hasLikeProject rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MasterCard_Track"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Forence_Security"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MasterCard_Track -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MasterCard_Track">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method_Service"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Efficient_Cross-Border_Payment"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transparency_Effectiveness_In_Global_Trade"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Metaverse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Metaverse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Microsoft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Microsoft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Brand"/>
+        <untitled-ontology-95:acceptPaymentsWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#BTC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Modum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Modum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:hasAsAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MOD"/>
+        <untitled-ontology-95:developedIn rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Zurich"/>
+        <untitled-ontology-95:hasLikePartner rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SwissPost"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Health"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Bitcoin"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Monitoring_Shipments_Pharma_Products"/>
+        <untitled-ontology-95:usesTechnologyOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Money_Transfer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Money_Transfer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Monitoring_Shipments_Pharma_Products -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Monitoring_Shipments_Pharma_Products">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#NFT_DebitCard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#NFT_DebitCard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Paymento_Method_Card"/>
+        <untitled-ontology-77:isCreatedBy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MasterCard"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Negativize_Use_Of_Carbon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Negativize_Use_Of_Carbon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Network_Of_Collaborative_Devices -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Network_Of_Collaborative_Devices">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Offers_Carbon_Offsets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Offers_Carbon_Offsets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Ogyre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Ogyre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:developedIn rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Italy"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Waste"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Neo"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Record_About_Collection"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reward_To_A_Wast_Fisherman"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Track_Marine_Litter"/>
+        <untitled-ontology-95:mainUsesSpecification>information about  location where it was collected</untitled-ontology-95:mainUsesSpecification>
+        <untitled-ontology-95:mainUsesSpecification>information about type of waste</untitled-ontology-95:mainUsesSpecification>
+        <untitled-ontology-95:mainUsesSpecification>information such as the amount of waste</untitled-ontology-95:mainUsesSpecification>
+        <untitled-ontology-95:rewardSpecification>Points: Fishermen earn points for every kilogram of marine litter they collect.</untitled-ontology-95:rewardSpecification>
+        <untitled-ontology-95:rewardSpecification>Rewards: fishing equipment, training courses and discounts.</untitled-ontology-95:rewardSpecification>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#OilTrading -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#OilTrading">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#One_Acre_Fund -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#One_Acre_Fund">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Supports_Farmers_In_Africa"/>
+        <untitled-ontology-95:mainPurposeSpecification>Rural Africa</untitled-ontology-95:mainPurposeSpecification>
+        <scheme:link>https://oneacrefund.org/</scheme:link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#OpenSea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#OpenSea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#MarketPlace"/>
+        <untitled-ontology-95:forSellBuyAxien rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#NFT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Optimize_Use_Of_Renewables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Optimize_Use_Of_Renewables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PONTONGmbH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PONTONGmbH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Partner_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Palermo_University -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Palermo_University">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Partner_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Parma_University -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Parma_University">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Partner_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PayPal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PayPal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Brand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Pay_For_Recycling_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Pay_For_Recycling_Service">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PharmaLedger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PharmaLedger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Health"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Health_Care"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Access_To_Medical_Records"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Supply_Of_Medicines"/>
+        <untitled-ontology-95:usesTechnologyOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PhilippePlein -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#PhilippePlein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Brand"/>
+        <untitled-ontology-95:acceptPaymentsWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#BTC"/>
+        <untitled-ontology-95:acceptPaymentsWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ETH"/>
+        <untitled-ontology-95:acceptPaymentsWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Tether"/>
+        <untitled-ontology-95:acceptPaymentsWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#TrueUSD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Precous_Stone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Precous_Stone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Promote_Businesses_Of_The_Pids -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Promote_Businesses_Of_The_Pids">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Proof_Of_Concept -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Proof_Of_Concept">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Creation_Protocol"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Protect_Made_In_Italy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Protect_Made_In_Italy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#QR_Code -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#QR_Code">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Safety_Element"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#RPX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#RPX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token"/>
+        <untitled-ontology-77:isTheAssetOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#RedPulse"/>
+        <untitled-ontology-77:usesLikeStandard rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ERC_721"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#ReFi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#ReFi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:ecologicalVersionOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#DeFi"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:itSupportProjectLike rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Celo_Project"/>
+        <untitled-ontology-95:itSupportProjectLike rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Eco-Sys_Action"/>
+        <untitled-ontology-95:itSupportProjectLike rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#One_Acre_Fund"/>
+        <rdfs:comment>Regenerative Finance (ReFi) is a tool and way of thinking about finance to solve problems such as climate change.
+Regenerative Finance (ReFi) seeks to generate an ecosystem in which all its parts are “in relationship”.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Record_About_Collection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Record_About_Collection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#RedPulse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#RedPulse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:hasAsAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#RPX"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Neo"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Market_Research"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reduce_Waste -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reduce_Waste">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reduction_Black_Market -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reduction_Black_Market">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reward_To_A_Wast_Fisherman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reward_To_A_Wast_Fisherman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SAND -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SAND">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token"/>
+        <untitled-ontology-77:isTheAssetOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SandBox"/>
+        <untitled-ontology-77:usesLikeStandard rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ERC_721"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SandBox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SandBox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:hasAsAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SAND"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Metaverse"/>
+        <untitled-ontology-95:itsCharactersAre rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#NFT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Santader -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Santader">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:isInCollaborationWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ripple"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Data_Management"/>
+        <untitled-ontology-95:mainUsesSpecification>Financial data</untitled-ontology-95:mainUsesSpecification>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Secure_Accomodation_Booking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Secure_Accomodation_Booking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Secure_Travel_Booking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Secure_Travel_Booking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Show_Process_Sustainibility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Show_Process_Sustainibility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Show_Product_Sustainibility -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Show_Product_Sustainibility">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Shows_Ethics_In_Production -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Shows_Ethics_In_Production">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sicily -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sicily">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SmartCity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SmartCity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT_Application"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sorare -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sorare">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Gaming"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:itsCharactersAre rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#NFT"/>
+        <untitled-ontology-95:usesLikeAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ETH"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Southern_Italy_Island -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Southern_Italy_Island">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Place"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Supply_Of_Medicines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Supply_Of_Medicines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Supports_Farmers_In_Africa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Supports_Farmers_In_Africa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Swarm_City -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Swarm_City">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:allowsToCreate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Network_Of_Collaborative_Devices"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SmartCity"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:usesTechnologyOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SwissPost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SwissPost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Partner_Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TRAME -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TRAME">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Textile"/>
+        <untitled-ontology-95:mainUsesSpecification>Consumption throughout the entire production cycle</untitled-ontology-95:mainUsesSpecification>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TTN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TTN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:isUsedFor rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Agriculture"/>
+        <untitled-ontology-77:isUsedFor rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Industry4.0"/>
+        <untitled-ontology-77:isUsedFor rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#SmartCity"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:usesTechnologyOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#LoRaWhan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Textile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Textile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TextileChain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TextileChain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Textile"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Quadrans"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trace_Textile_Supply_Chain"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Protect_Made_In_Italy"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Show_Process_Sustainibility"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Show_Product_Sustainibility"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Shows_Ethics_In_Production"/>
+        <untitled-ontology-95:usesForTracciability rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#QR_Code"/>
+        <untitled-ontology-95:mainUsesSpecification>trace the path of the textile supply chain</untitled-ontology-95:mainUsesSpecification>
+        <scheme:image rdf:resource="https://textile-chain.it/static/frontend/textile/images/landing/tracciabilita_blockchain.png"/>
+        <scheme:link>http://www.semanticweb.org/borzi/ontologies/2023/8/untitled-ontology-27/Show%20that%20your%20garment%20was%20created%20with%20a%20view%20to%20reusing%20and%20recycling</scheme:link>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TextileChain"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainUsesIs"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Show_Process_Sustainibility"/>
+        <rdfs:comment>Show that sustainable processes were used during the manufacturing processes that required fewer resources and allowed a reduction in waste</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#TextileChain"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#mainUsesIs"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Shows_Ethics_In_Production"/>
+        <rdfs:comment>Demonstrate that the company applies ethical standards towards its workers</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#The_Machine_Economy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#The_Machine_Economy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:allowsToCreate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Decentralized_Economic_System"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Economy"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:usesTechnologyOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#IoT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token_For_Diamond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token_For_Diamond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trace_Food_Product -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trace_Food_Product">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trace_Textile_Supply_Chain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trace_Textile_Supply_Chain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Track_Marine_Litter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Track_Marine_Litter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trackit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trackit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Textile"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Tracr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Tracr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Precous_Stone"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Reduction_Black_Market"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Token_For_Diamond"/>
+        <untitled-ontology-95:mainPurposeSpecification>Through the traceability of all information.</untitled-ontology-95:mainPurposeSpecification>
+        <untitled-ontology-95:mainUsesSpecification>each diamond has an associated token</untitled-ontology-95:mainUsesSpecification>
+        <scheme:link rdf:resource="https://www.topdigitex.com/ricerca-e-sviluppo-2/fashiontech-trame/#press"/>
+        <rdfs:comment>Traceability in blockchain for environmental, energy and economic sustainability</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transactive_Energy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transactive_Energy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transmit_Data_Over_Long_Distances -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transmit_Data_Over_Long_Distances">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transparency_Effectiveness_In_Global_Trade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Transparency_Effectiveness_In_Global_Trade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Travala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Travala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Brand"/>
+        <untitled-ontology-95:acceptPaymentsWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#BTC"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Secure_Accomodation_Booking"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Secure_Travel_Booking"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trust_Delivery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Trust_Delivery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Delivery"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital_Guarantee_Seal"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Food_Distribution"/>
+        <untitled-ontology-95:usesForTracciability rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#QR_Code"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#UNI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#UNI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Valute"/>
+        <untitled-ontology-77:isTheAssetOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#UniCum"/>
+        <untitled-ontology-77:usesLikeStandard rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#ERC_20"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#UniCum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#UniCum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-77:hasAsAsset rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#UNI"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Artistic"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Promote_Businesses_Of_The_Pids"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Make_Works_Of_Art_Unique"/>
+        <untitled-ontology-95:mainPurposeSpecification>of the Chambers of Commerce of the Mirabilia network</untitled-ontology-95:mainPurposeSpecification>
+        <scheme:link>https://www.cryptomirabilia.com/progetto.html</scheme:link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Uniswap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Uniswap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:allowsTheFreeExchangeOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#FungibleToken"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <scheme:image rdf:resource="https://www.criptovaluta.it/wp-content/uploads/2023/03/UNISWAP-DEFI-1024x546.png"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Usage_Mobile_First -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Usage_Mobile_First">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Vakt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Vakt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Financial"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Quorum"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Digital_Documentation_About_Oil"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#OilTrading"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Virtual_Kitten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Virtual_Kitten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Virtuous_Exchanges_Of_Energy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Virtuous_Exchanges_Of_Energy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Visa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Visa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Paymento_Method_Card"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Efficient_Cross-Border_Payment"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Improve_Payment_Efficiency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#VisaB2B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#VisaB2B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Payment_Method_Service"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Waste -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Waste">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Sector"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#WasteCoin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#WasteCoin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project"/>
+        <untitled-ontology-95:isAProjectOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Waste"/>
+        <untitled-ontology-95:itUsesBlockchain rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Ethereum"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Encourage_Recycling"/>
+        <untitled-ontology-95:mainPurposeIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Waste_Reduction"/>
+        <untitled-ontology-95:mainUsesIs rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Pay_For_Recycling_Service"/>
+        <untitled-ontology-77:tipology>Crypto valuta</untitled-ontology-77:tipology>
+        <scheme:link>https://wastecoin.co.uk/</scheme:link>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Waste_Reduction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Waste_Reduction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Project_Action"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Zurich -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Zurich">
+        <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-95#Place"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
