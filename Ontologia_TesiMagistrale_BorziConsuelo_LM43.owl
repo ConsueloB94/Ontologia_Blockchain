@@ -1012,6 +1012,14 @@ The main blockchains are: Bitcoin, Ethereum and Neo.
     
 
 
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#toolsUsedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#toolsUsedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#usesAsTools"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#tracksAvailability -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#tracksAvailability"/>
@@ -1027,6 +1035,12 @@ The main blockchains are: Bitcoin, Ethereum and Neo.
     <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#usesAsANode -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#usesAsANode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#usesAsTools -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#usesAsTools"/>
     
 
 
@@ -1343,6 +1357,7 @@ The main blockchains are: Bitcoin, Ethereum and Neo.
     <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Account -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Account">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Address"/>
         <rdfs:comment>Accounts in the blockchain are a way to identify and track transactions. Each account has a unique address, which is used to send and receive digital assets.
 
 Accounts in the blockchain are similar to bank accounts in that they allow users to store and transfer money. However, blockchain accounts are decentralized, meaning they are not controlled by a central authority.</rdfs:comment>
@@ -1535,7 +1550,9 @@ Blockchain addresses consist of 26-35 alphanumeric characters.</rdfs:comment>
 
     <!-- http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Element -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Element"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Element">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Entity"/>
+    </owl:Class>
     
 
 
@@ -2467,7 +2484,7 @@ The transaction is the minimum unit that is executed by a wallet</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Centralized_Identity">
         <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Model"/>
-        <untitled-ontology-77:isFoundedOn rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Governament_Entity"/>
+        <untitled-ontology-77:usesAsTools rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Governament_Entity"/>
         <untitled-ontology-77:manageIdentity>Private actors</untitled-ontology-77:manageIdentity>
     </owl:NamedIndividual>
     
@@ -2574,6 +2591,7 @@ In 2016, a hacker found a flaw in the code and 3.6 million ETH was stolen.</sche
         <untitled-ontology-77:isAFieldOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Self_Sovereign_Identity"/>
         <untitled-ontology-77:isProtectedBy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Private_Key"/>
         <untitled-ontology-77:isValidatedTrought rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#VCs"/>
+        <untitled-ontology-77:toolsUsedBy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Decentralized_Identity"/>
         <untitled-ontology-77:vantageIs>Decentralization</untitled-ontology-77:vantageIs>
         <untitled-ontology-77:vantageIs>Encryption</untitled-ontology-77:vantageIs>
         <untitled-ontology-77:vantageIs>Persistence</untitled-ontology-77:vantageIs>
@@ -2602,8 +2620,8 @@ In 2016, a hacker found a flaw in the code and 3.6 million ETH was stolen.</sche
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Decentralized_Identity">
         <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Model"/>
-        <untitled-ontology-77:isFoundedOn rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#DID"/>
-        <untitled-ontology-77:isFoundedOn rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#VCs"/>
+        <untitled-ontology-77:isCharacterizedBy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Security"/>
+        <untitled-ontology-77:usesAsTools rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#DID"/>
         <rdfs:comment>Manage Identity user who gives consent for the sharing of their data</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -3090,6 +3108,7 @@ Ethereum i programmable because allows to write Smart Contract</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Governament_Entity">
         <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Entity"/>
+        <untitled-ontology-77:toolsUsedBy rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Centralized_Identity"/>
     </owl:NamedIndividual>
     
 
@@ -4731,6 +4750,7 @@ Can be used for legal purposes.</scheme:link>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#VCs">
         <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Element"/>
+        <untitled-ontology-77:isAFieldOf rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Self_Sovereign_Identity"/>
         <untitled-ontology-77:isUsedFor rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Description_OF_Information"/>
         <scheme:link>Verifiable Credentials (VCs) can be defined as statements, made by a third-party certifier, about an identity and characterized by a cryptographic proof. Once a DID has been created, a potentially infinite number of credentials can be linked to it.
 
@@ -4767,6 +4787,8 @@ Verifiable Credentials &quot;certify&quot; some attributes of a subject or other
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Valora">
         <rdf:type rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Wallet"/>
+        <untitled-ontology-77:isNoConnectedTo rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Internet"/>
+        <untitled-ontology-77:isUsedToAccessOn rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Celo"/>
     </owl:NamedIndividual>
     
 
@@ -5161,7 +5183,7 @@ This means that anyone who owns NEO can help manage the network.</rdfs:comment>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Model"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -5171,7 +5193,7 @@ This means that anyone who owns NEO can help manage the network.</rdfs:comment>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                 <swrl:classPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Element"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -5180,12 +5202,25 @@ This means that anyone who owns NEO can help manage the network.</rdfs:comment>
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#isFoundedOn"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#usesAsTools"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
                                     </rdf:Description>
                                 </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#isCharacterizedBy"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
                             </rdf:Description>
                         </rdf:rest>
                     </rdf:Description>
@@ -5199,7 +5234,7 @@ This means that anyone who owns NEO can help manage the network.</rdfs:comment>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Innovative_Model"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -5215,7 +5250,7 @@ This means that anyone who owns NEO can help manage the network.</rdfs:comment>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Digital_Identity_Model"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -5225,7 +5260,7 @@ This means that anyone who owns NEO can help manage the network.</rdfs:comment>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                 <swrl:classPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Entity"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#z"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#z"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -5234,9 +5269,9 @@ This means that anyone who owns NEO can help manage the network.</rdfs:comment>
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#isFoundedOn"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#usesAsTools"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -5253,7 +5288,7 @@ This means that anyone who owns NEO can help manage the network.</rdfs:comment>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/borzi/ontologies/2023/9/untitled-ontology-77#Traditional_Model"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
